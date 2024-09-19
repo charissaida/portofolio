@@ -11,9 +11,9 @@ const Hero = () => {
     <div className="mt-20 max-w-[1200px] mx-auto relative">
       <div className="grid md:grid-cols-2 place-items-center gap-8">
         <motion.div initial={{ opacity: 0, y: -50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 1 }}>
-          <TypeAnimation sequence={["Web Developer", 1000, "Front End Developer", 1000, "Graphic Designer", 1000]} speed={50} repeat={Infinity} className="font-bold text-gray-400 text-xl md:text-5xl italic- mb-4" />
-
-          <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 1, delay: 0.8 }} className="text-gray-200 md:text-6xl text-4xl tracking-tight mb-4">
+          <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 1, delay: 0.5 }} className="text-gray-200 md:text-6xl text-4xl tracking-tight mb-4">
+            <TypeAnimation sequence={["Web Developer", 1000, "Front End Developer", 1000, "Graphic Designer", 1000]} speed={50} repeat={Infinity} className="font-bold text-gray-400 text-xl md:text-5xl italic- mb-4" />
+            <br />
             HEY, I AM <br />
             <span className="text-purple-500">CHARIS SAIDA</span>
           </motion.p>
@@ -47,7 +47,7 @@ const Hero = () => {
           </motion.div>
         </motion.div>
 
-        <motion.img src={profilepic} className="w-[300px] md:w-[450px]" initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 1, delay: 1 }} />
+        <motion.img src={profilepic} className="w-[300px] md:w-[450px]" initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 1, delay: 0.5 }} />
       </div>
 
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 1, delay: 2 }} className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center pt-8 pb-20">
