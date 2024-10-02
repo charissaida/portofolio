@@ -21,9 +21,8 @@ const Experience = () => {
       <h1 className="text-4xl text-gray-200 font-bold text-center mb-12">Experience</h1>
       <motion.div className="space-y-8" initial="hidden" animate="visible">
         {experiences.map((experience, index) => (
-          <Reveal>
+          <Reveal key={index}>
             <motion.div
-              key={index}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.3 }}

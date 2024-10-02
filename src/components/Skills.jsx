@@ -1,6 +1,8 @@
 import React from "react";
 import { DiHtml5, DiCss3, DiBootstrap, DiJavascript1, DiReact, DiNodejsSmall, DiGithubBadge, DiMysql } from "react-icons/di";
+
 import Reveal from "./Reveal";
+import { Link } from "react-scroll";
 
 const skills = [
   {
@@ -16,7 +18,6 @@ const skills = [
   {
     category: "Fullstack",
     technologies: [
-      { name: "Node Js", icon: <DiNodejsSmall className="text-green-500" /> },
       { name: "MySQL", icon: <DiMysql className="text-green-600" /> },
       { name: "React", icon: <DiReact className="text-blue-500" /> },
       { name: "GitHub", icon: <DiGithubBadge className="text-gray-600" /> },
@@ -31,9 +32,9 @@ const Skills = () => {
         <h2 className="text-3xl font-bold mb-4 text-center">Skills</h2>
         <p className="text-center mb-8">
           I worked on various frontend and fullstack projects. Check them{" "}
-          <a href="#" className="underline">
+          <Link to="portfolio" className="underline cursor-pointer" smooth={true} offset={-80} duration={500}>
             there
-          </a>
+          </Link>
           .
         </p>
 

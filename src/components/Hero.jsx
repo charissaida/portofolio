@@ -23,13 +23,14 @@ const Hero = () => {
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 1, delay: 1.5 }} className="flex flex-row items-center gap-6 my-4 md:mb-0">
-            <motion.button
+            <motion.a
+              href="https://drive.google.com/file/d/1c7u3h4lpq4klj5XKzfhJWl5COP2OHIBN/view?usp=drive_link"
               whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
               className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                                      border-purple-400 rounded-xl"
             >
               Download CV
-            </motion.button>
+            </motion.a>
 
             <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
               <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/charissaida">

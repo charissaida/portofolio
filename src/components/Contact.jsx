@@ -1,6 +1,4 @@
 import React from "react";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import { motion } from "framer-motion";
 import Reveal from "./Reveal";
 
 const Contact = () => {
@@ -14,41 +12,10 @@ const Contact = () => {
                 About <span>Me</span>
               </h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eos, quam vel quisquam, explicabo sit labore dignissimos optio ratione quibusdam doloribus pariatur consequuntur sint. Reprehenderit cupiditate possimus facere
-                quasi voluptatem?
+                Saya seorang web developer pemula dengan latar belakang Teknik Informatika dan semangat yang tinggi dalam mengembangkan aplikasi web. Dengan tujuan untuk terus belajar dan berkembang, saya siap berkontribusi dalam proyek
+                yang menantang dan berkualitas tinggi. Mari kita terhubung dan ciptakan sesuatu yang luar biasa bersama!
               </p>
             </div>
-
-            {/* <div className="flex mt-10 items-center gap-7">
-              <div className="bg-gray-800/40 p-4 rounded-lg">
-                <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  11
-                  <span>+</span>
-                </h3>
-                <p className="text-xs md:text-base">
-                  <span>Projects</span>
-                </p>
-              </div>
-
-              <div className="bg-gray-800/40 p-5 rounded-lg">
-                <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  5<span>+</span>
-                </h3>
-                <p className="text-xs md:text-base">
-                  <span>years of experience</span>
-                </p>
-              </div>
-
-              <div className="bg-gray-800/40 p-5 rounded-lg">
-                <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  30
-                  <span>+</span>
-                </h3>
-                <p className="text-xs md:text-base">
-                  <span>happy clients</span>
-                </p>
-              </div>
-            </div> */}
           </div>
 
           <form action="https://getform.io/f/aqonljva" method="POST" className=" max-w-6xl p-5 md:p-12" id="form">
