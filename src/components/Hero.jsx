@@ -4,6 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
 import { AiOutlineGithub, AiOutlineInstagram, AiOutlineLink, AiOutlineLinkedin } from "react-icons/ai";
 import { DiCss3, DiHtml5, DiJavascript1, DiNodejsSmall, DiReact } from "react-icons/di";
+import { FaLaravel } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -58,6 +59,7 @@ const Hero = () => {
         <DiJavascript1 className="text-yellow-500 mx-2" />
         <DiReact className="text-blue-500 mx-2" />
         <DiNodejsSmall className="text-green-500 mx-2" />
+        <FaLaravel className="text-orange-500 mx-2 h-14" />
       </motion.div>
 
       <div className="absolute inset-0 hidden md:block">

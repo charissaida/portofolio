@@ -1,5 +1,6 @@
 import React from "react";
 import { DiHtml5, DiCss3, DiBootstrap, DiJavascript1, DiReact, DiNodejsSmall, DiGithubBadge, DiMysql } from "react-icons/di";
+import { FaLaravel } from "react-icons/fa";
 
 import Reveal from "./Reveal";
 import { Link } from "react-scroll";
@@ -21,6 +22,7 @@ const skills = [
       { name: "MySQL", icon: <DiMysql className="text-green-600" /> },
       { name: "React", icon: <DiReact className="text-blue-500" /> },
       { name: "GitHub", icon: <DiGithubBadge className="text-gray-600" /> },
+      { name: "laravel", icon: <FaLaravel className="text-orange-500" /> },
     ],
   },
 ];
