@@ -2,6 +2,7 @@ import React from "react";
 import project1 from "../assets/project.png";
 import project2 from "../assets/weather-app.png";
 import project3 from "../assets/siponpes.png";
+import project4 from "../assets/web-desa-pait.png";
 import { AiOutlineGithub } from "react-icons/ai";
 import Reveal from "./Reveal";
 
@@ -31,6 +32,15 @@ const projects = [
     links: {
       site: "",
       github: "https://github.com/charissaida/ponpes-nurun-nahdlatain.git",
+    },
+  },
+  {
+    img: project4,
+    title: "Web Desa Pait",
+    description: "Sistem informasi Desa Pait berbasis Laravel dan Tailwind CSS untuk pengelolaan data dan informasi Desa.",
+    links: {
+      site: "",
+      github: "https://github.com/charissaida/web-desa-pait.git",
     },
   },
 ];
