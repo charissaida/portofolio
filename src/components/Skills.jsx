@@ -22,7 +22,7 @@ const skills = [
       { name: "MySQL", icon: <DiMysql className="text-green-600" /> },
       { name: "React", icon: <DiReact className="text-blue-500" /> },
       { name: "GitHub", icon: <DiGithubBadge className="text-gray-600" /> },
-      { name: "laravel", icon: <FaLaravel className="text-orange-500" /> },
+      { name: "Laravel", icon: <FaLaravel className="text-orange-500 h-5" /> },
     ],
   },
 ];
