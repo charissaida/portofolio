@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="text-gray-400">@2024 Charis Saida</p>
+      <p className="text-gray-400">@2025 Charis Saida</p>
     </div>
   );
 };

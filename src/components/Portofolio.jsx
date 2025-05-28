@@ -3,6 +3,7 @@ import project1 from "../assets/project.png";
 import project2 from "../assets/weather-app.png";
 import project3 from "../assets/siponpes.png";
 import project4 from "../assets/web-desa-pait.png";
+import project5 from "../assets/berita-kini.png";
 import { AiOutlineGithub } from "react-icons/ai";
 import Reveal from "./Reveal";
 
@@ -41,6 +42,15 @@ const projects = [
     links: {
       site: "",
       github: "https://github.com/charissaida/web-desa-pait.git",
+    },
+  },
+  {
+    img: project5,
+    title: "Berita Kini",
+    description: "Berita Kini adalah website portal berita berbasis React JS yang menampilkan berita terkini dari berbagai kategori, diambil secara real-time dari API yang selalu terupdate.",
+    links: {
+      site: "https://charissaida.github.io/berita-kini",
+      github: "https://github.com/charissaida/berita-kini.git",
     },
   },
 ];

@@ -13,6 +13,11 @@ const experiences = [
     period: "Agustus – Desember 2023",
     description: "Mengembangkan website informasi akademik Fakultas Teknik menggunakan WordPress.",
   },
+  {
+    company: "PT Zona Media Indonesia",
+    period: "November 2024 – Maret 2025",
+    description: "Mendevelop website aplikasi forHat menggunakan Laravel dan Tailwind CSS serta melakukan integrasi dan pengelolaan API untuk kebutuhan Aplikasi Mobile.",
+  },
 ];
 
 const Experience = () => {

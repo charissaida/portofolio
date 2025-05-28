@@ -12,7 +12,7 @@ const Contact = () => {
                 About <span>Me</span>
               </h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Saya seorang web developer pemula dengan latar belakang Teknik Informatika dan semangat yang tinggi dalam mengembangkan aplikasi web. Dengan tujuan untuk terus belajar dan berkembang, saya siap berkontribusi dalam proyek
+                Saya seorang web developer dengan latar belakang Teknik Informatika dan semangat yang tinggi dalam mengembangkan aplikasi web. Dengan tujuan untuk terus belajar dan berkembang, saya siap berkontribusi dalam proyek
                 yang menantang dan berkualitas tinggi. Mari kita terhubung dan ciptakan sesuatu yang luar biasa bersama!
               </p>
             </div>
